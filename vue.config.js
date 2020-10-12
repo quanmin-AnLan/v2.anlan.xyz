@@ -16,10 +16,8 @@ module.exports = {
   configureWebpack: config => {
     if (process.env.NODE_ENV === 'production') {
       const plugins = []
-      console.log('[path].gz[query]')
       plugins.push(
         new CompressionPlugin({
-          filename: '[path].gz[query]',
           algorithm: 'gzip',
           test: /\.(html|js|json|ttf|css|jpeg|jpg|png)$/,
           threshold: 0,
