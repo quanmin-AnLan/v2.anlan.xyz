@@ -7,6 +7,8 @@
 </template>
 
 <style>
+@import "./less/common.less";
+@import "./less/reset.less";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
