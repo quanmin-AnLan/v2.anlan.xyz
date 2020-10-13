@@ -6,9 +6,8 @@
   <router-view/>
 </template>
 
-<style>
-@import "./less/common.less";
-@import "./less/reset.less";
+<style lang="less">
+@import './less/main.less';
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

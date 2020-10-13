@@ -1,3 +1,4 @@
+require('events').EventEmitter.defaultMaxListeners = 0
 const CompressionPlugin = require('compression-webpack-plugin')
 const path = require('path')
 module.exports = {
@@ -36,8 +37,7 @@ module.exports = {
     'style-resources-loader': {
       preProcessor: 'less',
       patterns: [
-        path.resolve(__dirname, './src/less/reset.less'),
-        path.resolve(__dirname, './src/less/common.less')
+        path.resolve(__dirname, './src/less/main.less')
       ]
     }
   }
