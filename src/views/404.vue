@@ -11,11 +11,18 @@
 </template>
 
 <script>
-import { defineComponent, onMounted } from 'vue'
+import { defineComponent, onMounted, onUnmounted } from 'vue'
 export default defineComponent({
   setup () {
+    const updateHeight = () => {
+      document.querySelector('#error-box').style.minHeight = window.innerHeight + 'px'
+    }
     onMounted(() => {
       document.querySelector('#error-box').style.minHeight = window.innerHeight + 'px'
+      window.addEventListener('resize', updateHeight)
+    })
+    onUnmounted(() => {
+      window.removeEventListener('resize', updateHeight)
     })
   }
 })
