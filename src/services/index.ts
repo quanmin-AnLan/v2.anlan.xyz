@@ -15,7 +15,7 @@ axios.interceptors.response.use(res => {
   } else {
     return Promise.reject(res);
   }
-});
+})
 
 export const get: Request = async (url, params, config) => {
   const res = await service.get(url, { params, ...config })
