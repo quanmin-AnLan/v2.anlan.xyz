@@ -31,22 +31,22 @@ export default defineComponent({
 <style lang="less" scoped>
 .error-page {
   .b;
-  .df
+  .d(f)
 }
 .error-box {
-  .mau
+  .m(auto)
 }
 .error-text {
-  .fs24
+  .fs(24px)
 }
 .error-container {
   color: @red
 }
 .error-img {
-  width: 373px;
-  height: 320px
+  .w(373px);
+  .h(320px)
 }
 .error-description {
-  .fs18
+  .fs(18px)
 }
 </style>
