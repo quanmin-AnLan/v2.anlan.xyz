@@ -3,7 +3,7 @@
     <div class="error-box">
       <div class="error-text">404 Not Found</div>
       <div class="error-container">
-        <div><img src="../assets/404.jpg" class="error-img"></div>
+        <div><img src="http://img.anlan.xyz/404.jpg?imagelim" class="error-img"></div>
         <div class="error-description">您输入的网址已被安澜吃掉，请更换正确的网址</div>
       </div>
     </div>
