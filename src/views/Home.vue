@@ -75,19 +75,32 @@ export default defineComponent({
   .tran(-50%, 0)
 }
 .form-select {
-  .h(36px);
-  .tran(2px, 0)
+  .h(44px);
+  .w(100px);
+  .outline-none;
+  .bor(2px solid @border-color-gray);
+  .cancel-select-arrow;
+  margin-right: 50px;
+  padding-left: 20px;
+  .c(@font-color-gray);
+  &:focus {
+    border-color: @border-color-active-gray
+  }
 }
 .keyword {
   .w(480px);
-  .h(36px);
-  .bb
+  .h(16px);
+  .p(12px 16px);
+  .v(t);
+  .br(10px);
+  .bor(2px solid @border-color-gray);
+  .ovh;
+  .outline-none;
+  &:focus {
+    border-color: @common-blue
+  }
 }
 .button {
-  .w(70px);
-  .h(36px);
-  .tran(-1px, 1px);
-  .br(0 18px 18px 0);
-  .bc(@gray)
+  .d(n)
 }
 </style>
