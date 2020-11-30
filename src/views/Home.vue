@@ -70,8 +70,8 @@ export default defineComponent({
 }
 .search-form {
   .pos(a);
-  top: 30%;
-  left: 50%;
+  .top(30%);
+  .left(50%);
   .tran(-50%, 0)
 }
 .form-select {
@@ -80,11 +80,11 @@ export default defineComponent({
   .outline-none;
   .bor(2px solid @border-color-gray);
   .cancel-select-arrow;
-  margin-right: 50px;
-  padding-left: 20px;
+  .m-r(50px);
+  .p-l(20px);
   .c(@font-color-gray);
   &:focus {
-    border-color: @border-color-active-gray
+    .bor-c(@border-color-active-gray)
   }
 }
 .keyword {
@@ -92,12 +92,12 @@ export default defineComponent({
   .h(16px);
   .p(12px 16px);
   .v(t);
-  .br(10px);
+  .bor-r(10px);
   .bor(2px solid @border-color-gray);
   .ovh;
   .outline-none;
   &:focus {
-    border-color: @common-blue
+    .bor-c(@common-blue)
   }
 }
 .button {
