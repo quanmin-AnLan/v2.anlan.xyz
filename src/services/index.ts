@@ -11,9 +11,9 @@ const service = axios.create({
 
 axios.interceptors.response.use(res => {
   if (res.status === 200) {
-    return Promise.resolve(res);
+    return Promise.resolve(res)
   } else {
-    return Promise.reject(res);
+    return Promise.reject(res)
   }
 })
 
