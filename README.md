@@ -1,6 +1,8 @@
-# 安澜网2.0<http://v2.anlan.xyz>
+# [安澜网2.0](http://v2.anlan.xyz)
 
-## project need
+-----
+
+## Project need
 
 ``` txt
 yarn
@@ -33,11 +35,11 @@ yarn lint
 
 ### Customize configuration
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [Configuration Reference](https://v3.vuejs.org/).
 
-### tree
+### Code tree
 
-```
+``` tree
 │  
 ├─public
 │      favicon.ico
