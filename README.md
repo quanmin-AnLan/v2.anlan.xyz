@@ -37,6 +37,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### tree
 
+```
 │  
 ├─public
 │      favicon.ico
@@ -73,3 +74,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     └─views
             404.vue                   //错误页面
             Home.vue                  //主页
+```
