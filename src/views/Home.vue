@@ -36,6 +36,11 @@ export default defineComponent({
         name: '淘宝',
         action: 'https://s.taobao.com/search',
         inputName: 'q'
+      },
+      {
+        name: 'MC',
+        action: 'https://minecraft-zh.gamepedia.com/index.php',
+        inputName: 'search'
       }
     ]
     const formIndex = ref(0)
