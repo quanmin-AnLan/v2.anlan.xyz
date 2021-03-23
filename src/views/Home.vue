@@ -41,6 +41,11 @@ export default defineComponent({
         name: 'MC',
         action: 'https://minecraft-zh.gamepedia.com/index.php',
         inputName: 'search'
+      },
+      {
+        name: 'MCmod',
+        action: 'https://www.mcmod.cn/s',
+        inputName: 'key'
       }
     ]
     const formIndex = ref(0)
