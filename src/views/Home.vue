@@ -19,7 +19,7 @@ export default defineComponent({
     const formData = [
       {
         name: '百度',
-        action: 'http://www.baidu.com.cn/s',
+        action: 'https://www.baidu.com.cn/s',
         inputName: 'wd'
       },
       {
