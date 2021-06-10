@@ -39,7 +39,7 @@ export default defineComponent({
       },
       {
         name: 'MC',
-        action: 'https://minecraft-zh.gamepedia.com/index.php',
+        action: 'https://minecraft.fandom.com/zh/index.php',
         inputName: 'search'
       },
       {
