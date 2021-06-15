@@ -28,6 +28,11 @@ export default defineComponent({
         inputName: 'keyword'
       },
       {
+        name: '知乎',
+        action: 'https://www.zhihu.com/search?type=content&',
+        inputName: 'q'
+      },
+      {
         name: 'QQ音乐',
         action: 'https://y.qq.com/portal/search.html?',
         inputName: 'w'
