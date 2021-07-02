@@ -33,11 +33,6 @@ export default defineComponent({
         inputName: 'q'
       },
       {
-        name: 'QQ音乐',
-        action: 'https://y.qq.com/portal/search.html?',
-        inputName: 'w'
-      },
-      {
         name: '淘宝',
         action: 'https://s.taobao.com/search',
         inputName: 'q'
@@ -46,6 +41,11 @@ export default defineComponent({
         name: 'MC',
         action: 'https://minecraft.fandom.com/zh/index.php',
         inputName: 'search'
+      },
+      {
+        name: 'QQ音乐',
+        action: 'https://y.qq.com/portal/search.html?',
+        inputName: 'w'
       },
       {
         name: 'MCmod',
@@ -81,13 +81,14 @@ export default defineComponent({
 
 <style lang="less" scoped>
 .home {
-  .pos(r)
+  .pos(r);
+  .d(f);
+  .jc(center);
 }
 .search-form {
   .pos(a);
-  .top(30%);
-  .left(50%);
-  .tran(-50%, 0)
+  .top(40%);
+  .tran(0, -50%)
 }
 .form-select {
   .h(44px);
