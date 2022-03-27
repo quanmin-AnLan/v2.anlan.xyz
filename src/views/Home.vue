@@ -18,6 +18,11 @@ export default defineComponent({
   setup () {
     const formData = [
       {
+        name: 'google',
+        action: 'https://www.google.com.hk/search',
+        inputName: 'q'
+      },
+      {
         name: '百度',
         action: 'https://www.baidu.com.cn/s',
         inputName: 'wd'
