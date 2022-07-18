@@ -6,6 +6,7 @@ export interface Request {
 }
 
 const service = axios.create({
+  baseURL: 'http://data.anlan.xyz',
   timeout: 5000
 })
 
