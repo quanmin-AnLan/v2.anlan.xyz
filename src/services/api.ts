@@ -1,3 +1,3 @@
 import { get } from './index'
 
-export const reportPV = (params?: object) => get('/reportPV', params)
+export const reportPV = (params?: object) => get('/report/pv', params)
