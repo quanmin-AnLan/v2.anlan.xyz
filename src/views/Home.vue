@@ -33,6 +33,11 @@ export default defineComponent({
         inputName: 'keyword'
       },
       {
+        name: '原神',
+        action: 'https://searchwiki.biligame.com/ys/index.php?fulltext=%E6%90%9C%E7%B4%A2&',
+        inputName: 'search'
+      },
+      {
         name: '知乎',
         action: 'https://www.zhihu.com/search?type=content&',
         inputName: 'q'
